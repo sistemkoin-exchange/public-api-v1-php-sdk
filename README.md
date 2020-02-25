@@ -29,7 +29,7 @@ $sdk = new SistemkoinSDK($apiKey, $apiSecret);
 dd($sdk->getUserData());
 ```
 
-###Proxy - Watch Requests
+### Proxy - Watch Requests
 If u want to use proxy, add proxy parameters in guzzlehttp/client options.
 
 - *src/SistemkoinSDK.php*
