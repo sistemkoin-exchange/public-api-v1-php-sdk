@@ -18,8 +18,8 @@
     "version": "1.0.1",
     "require": {
         "guzzle/guzzle": "^3.9",
-        "nesbot/carbon": "dev-master",
-        "guzzlehttp/guzzle": "^6.5@dev",
+        "nesbot/carbon": "^2.30.0",
+        "guzzlehttp/guzzle": "^6.5",
         "ext-json": "*"
     },
     "require-dev": {
