@@ -1,0 +1,27 @@
+{
+    "name": "sistemkoin/public-api-v1-php-sdk",
+    "description": "Sistemkoin Exchange Public API SDK For PHP Developers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bilal ATLI",
+            "email": "bilal@sistemkoin.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzle/guzzle": "^3.9",
+        "nesbot/carbon": "dev-master",
+        "guzzlehttp/guzzle": "^6.5@dev",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "STK\\": "src/"
+        }
+    }
+}
