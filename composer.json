@@ -15,7 +15,7 @@
         "source": "https://github.com/sistemkoin-exchange/public-api-v1-php-sdk",
         "docs" : "https://github.com/sistemkoin-exchange/public-api-v1-php-sdk"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "require": {
         "guzzle/guzzle": "^3.9",
         "nesbot/carbon": "^2.30.0",
