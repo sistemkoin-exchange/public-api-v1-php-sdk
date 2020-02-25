@@ -9,7 +9,8 @@
             "email": "bilal@sistemkoin.com"
         }
     ],
-    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
     "require": {
         "guzzle/guzzle": "^3.9",
         "nesbot/carbon": "dev-master",
