@@ -3,13 +3,19 @@
     "description": "Sistemkoin Exchange Public API SDK For PHP Developers",
     "type": "library",
     "license": "MIT",
+    "time": "2020-02-25 15:45:00",
     "authors": [
         {
             "name": "Bilal ATLI",
             "email": "bilal@sistemkoin.com"
         }
     ],
-    "version": "1.0.0",
+    "support": {
+        "email": "bilal@sistemkoin.com",
+        "source": "https://github.com/sistemkoin-exchange/public-api-v1-php-sdk",
+        "docs" : "https://github.com/sistemkoin-exchange/public-api-v1-php-sdk"
+    },
+    "version": "1.0.1",
     "require": {
         "guzzle/guzzle": "^3.9",
         "nesbot/carbon": "dev-master",
@@ -22,6 +28,11 @@
     "autoload": {
         "psr-4": {
             "STK\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.3"
         }
     }
 }
